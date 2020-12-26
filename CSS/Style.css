@@ -565,7 +565,61 @@ font-weight: var(--font-semi-bold);
 /* ===== FOOTER =====*/
 
 
+/* ===== MEDIA QUERIES=====
+@media screen and (min-width: 768px) {
+    .home__button {
+        width: initial;
+    }
 
+    .nav__menu{
+        width:var(--nav-width);
+    }
+    .about__container,
+    .skills__container,
+    .services__container,
+    .contact__container,
+    works__container,
+    contact__container,
+    contact__input{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about__data{
+        text-align:initial;
+    }
+    .about__description{
+        width:220px;
+    }
+    .about__information{
+        padding-left: 4rem;
+    }
+ .education__time{
+     padding:0 2rem;
+ }
+ .project{
+     background:none;
+ }
+ .project__container{
+     background-color:var(--first-color);
+     grid-template-columns: 2fr 1.2fr;
+     padding: 0 2rem;
+     border-radius: .5rem;
+ }
+    .project__data {
+        padding: 3rem 0;
+        
+    }
+    .poject__title, .project__data {
+        text-align: initial;
+        background-color: var(--first-color);
+    }
+ .project_img{
+     width:230px;
+     align-self:flex-end;
 
+ }
+ .contact__input{
+     display:grid;
+     column-gap:1.5rem;
+ }
 }
-
+*/
