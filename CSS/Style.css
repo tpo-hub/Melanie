@@ -33,7 +33,7 @@
     /*Z INDEX*/
     --z-fixed: 100;
 }
-@media screen and (min-device-width: 768px){
+@media screen and (min-device-width: 1024px){
     :root{
     --h1-font-size: 2.25rem;
     --h2-font-size: 1.5rem;
@@ -565,7 +565,7 @@ font-weight: var(--font-semi-bold);
 /* ===== FOOTER =====*/
 
 
-/* ===== MEDIA QUERIES=====
+
 @media screen and (min-width: 768px) {
     .home__button {
         width: initial;
@@ -622,4 +622,4 @@ font-weight: var(--font-semi-bold);
      column-gap:1.5rem;
  }
 }
-*/
+
